@@ -1,0 +1,203 @@
+/*Css do corpo inteiro*/
+body {
+    background-color: #76b5a0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+}
+
+/*Inicio do css do cabeçalho*/
+
+.título {
+    text-align: center;
+    text-decoration: underline;
+    padding: 30px;
+}
+.dropdown-menu{
+    background-color: #fffdd1;
+}
+.navbar{
+    background-color: #fffdd1 !important;
+}
+
+
+/*Inicio do css do rodapé presente em todas as páginas*/
+footer {
+    background-color: #fffdd1;
+    text-align: center;
+    width: 100%;
+    border-top: solid 1px black;
+}
+
+footer img {
+    height: 100px;
+    width: auto;
+}
+
+/*Fim do css do rodapé presente em todas as páginas*/
+
+/*Inicio do css do conteúdo da primeira página*/
+.conteudo {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fffdd1;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.conteudo h3 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.conteudo li {
+    font-weight: bold;
+}
+.conteudo ul{
+    list-style: none;
+}
+.inst a {
+    color:#000;
+    text-decoration: none;
+}
+
+/*Fim do css do conteúdo da primeira página*/
+
+/*Css da pagina Citoplasma*/
+.citoplasma {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fffdd1;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.citoplasma img {
+    margin: auto;
+    display: block;
+    width: 70vw;
+    height: auto;
+    max-width: 600px;
+}
+
+.citoplasma h3 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Fim do css da pagina Citoplamsa*/
+
+/*Css da pagina Citoesquelto*/
+.citoesqueleto {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #fffdd1;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.citoesqueleto h3 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.citoesqueleto img {
+    margin: auto;
+    display: block;
+    width: 50vw;
+    height: auto;
+    max-width: 400px;
+}
+
+/*Fim do css da pagina Citoesquelto*/
+
+/* Inicio do conteudo da pagina de ciclose */
+.ciclose {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fffdd1;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+.ciclose h3 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.ciclose li {
+    font-weight: bold;
+}
+
+/* Inicio do conteudo da pagina de cinesina*/
+.cinesina {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #fffdd1;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.cinesina h3 {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.cinesina li {
+    font-weight: bold;
+}
+.cinesina img {
+    margin: auto;
+    display: block;
+    width: 50vw;
+    height: auto;
+    max-width: 400px;
+}
+
+.divisão{
+    border:solid 1px black
+}
+
+iframe{
+    display: block;
+    margin:0 auto;
+    width: 60vw;
+    height: auto;
+    max-width: 400px;
+}
+.vid{
+    display: block;
+    margin:0 auto;
+    width: 60vw;
+    height: auto;
+    max-width: 400px;
+}
+
+.back-to-top {
+    display: block;
+    width: 60px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    z-index: 999;
+}
+.back-to-top img{
+    width: 100%;
+    height: 100%;
+}
+.conteudo img{
+    margin: auto;
+    display: block;
+    width: 70vw;
+    height: auto;
+    max-width: 600px;
+    border-radius: 50%;
+}
+.conteudo a{
+    color:#000;
+}
